@@ -174,15 +174,142 @@
   <br>
 
   <!-- Video Tags -->
-   <h3>Video Tag</h3>
-   <video src="videos/evo9-cinematic.mp4" type="video/mp4" width="620" height="auto" controls muted> The video format is not supported by your browser</video>
+  <h3>Video Tag</h3>
+  <video src="videos/evo9-cinematic.mp4" type="video/mp4" width="620" height="auto" controls muted> The video format is
+    not supported by your browser</video>
 
-<br><br>
+  <br><br>
 
-   <!-- Audio Tag -->
-    <h3>Audio Tag</h3>
-    <audio src="audio/ananijali.mp3" controls>Ananijali - Andy Mburu</audio>
-    
+  <!-- Audio Tag -->
+  <h3>Audio Tag</h3>
+  <audio src="audio/ananijali.mp3" controls>Ananijali - Andy Mburu</audio>
+
+  <br>
+  <br>
+  <!-- Form Tags -->
+  <form action="" border="1">
+
+    <label for="fname">First Name: (Read Only)</label>
+    <input type="text" id="fname" name="fname" placeholder="John" readonly><br>
+    <br>
+    <label for="lname">Last Name: (Disabled)</label>
+    <input type="text" id="lname" name="lname" placeholder="Doe" disabled><br>
+
+    <br>
+
+    <label for="email">Email</label>
+    <input type="email" id="email" name="email" placeholder="example@gmail.com" required><br>
+
+    <br>
+
+    <label for="username">Username</label>
+    <input type="text" id="username" name="username" placeholder="johndoe123" required><br>
+
+    <br>
+
+    <label for="password">Password</label>
+    <input type="password" id="password" name="password" placeholder="Enter Password"><br>
+
+    <br>
+
+    <label for="confirm-password">Confirm Password</label>
+    <input type="password" id="confirm-password" name="confirm-password" placeholder="Confirm Password"><br>
+
+    <br>
+
+    <label for="dob">Date of Birth</label>
+    <input type="date" id="dob" name="dob"><br>
+
+    <br>
+
+    <label for="phone">Phone Number [Only specified format of 13 characters]</label><br>
+    <input type="tel" id="phone" name="phone" placeholder="+254712345678" maxlength="13"
+    pattern="\+254[0-9]{9}"
+    ><br>
+
+    <br>
+
+    <label for="color">Colour</label>
+    <input type="color" id="color" name="color"><br>
+
+    <br>
+
+    <label for="salary-range">Salary Range</label>
+    <input type="range" id="salary-range" name="salary-range" min="0" max="100000" step="1000"><br>
+
+    <br>
+
+    <label for="local-time">Local Time</label>
+    <input type="time" id="local-time" name="local-time"><br>
+
+    <br>
+
+    <label for="gender">Gender:</label><br>
+    <input type="radio" id="male" name="gender" value="Male">
+    <label for="male">Male</label>
+    <input type="radio" id="female" name="gender" value="Female">
+    <label for="female">Female</label><br>
+
+    <br>
+
+    <label for="status">Status</label><br>
+    <input type="radio" id="single" name="status" value="Single">
+    <label for="single">Single</label>
+    <input type="radio" id="married" name="status" value="Married">
+    <label for="married">Married</label><br>
+
+    <br>
+
+    <label for="education">Education Achieved</label>
+    <br>
+
+    <input type="checkbox" id="bachelors" name="education" value="Bachelor's Degree">
+    <label for="bachelors">Bachelor's Degree</label><br>
+
+    <input type="checkbox" id="masters" name="education" value="Master's Degree">
+    <label for="masters">Master's Degree</label><br>
+
+    <input type="checkbox" id="phd" name="education" value="PhD">
+    <label for="phd">PhD</label><br>
+
+    <br>
+
+    <label for="country">Country:</label><br>
+    <select id="country" name="country">
+      <option value="kenya">Kenya</option>
+      <option value="uganda">Uganda</option>
+      <option value="tanzania">Tanzania</option>
+      <option value="rwanda">Rwanda</option>
+      <option value="southsudan">South Sudan</option>
+      <option value="ethiopia">Ethiopia</option>
+      <option value="somalia">Somalia</option>
+    </select>
+
+    <br><br>
+
+    <label for="cv">CV (Only PDF & Doc files)</label><br>
+    <input type="file" id="cv" name="CV" accept=".pdf, .doc, .docx">
+
+    <br><br>
+
+    <label for="certs">Certifications (More than one is allowed)</label><br>
+    <input type="file" id="certs" name="Certifications" multiple>
+
+    <br><br>
+
+    <label for="linkedin-url">LinkedIn URL (Field width increased to fit the url)</label><br>
+    <input type="url" id="linkedin-url" name="linkedin-url" value="https://www.linkedin.com/in/johndoe" size="30"><br>
+
+    <br>
+
+    <label for="reset-form">Clear Form</label>
+    <input type="reset" value="Reset">
+
+    <br><br>
+
+    <input type="submit" value="Submit">
+
+  </form>
 
 </body>
 
