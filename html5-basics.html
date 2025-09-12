@@ -223,9 +223,7 @@
     <br>
 
     <label for="phone">Phone Number [Only specified format of 13 characters]</label><br>
-    <input type="tel" id="phone" name="phone" placeholder="+254712345678" maxlength="13"
-    pattern="\+254[0-9]{9}"
-    ><br>
+    <input type="tel" id="phone" name="phone" placeholder="+254712345678" maxlength="13" pattern="\+254[0-9]{9}"><br>
 
     <br>
 
@@ -311,68 +309,119 @@
 
   </form>
 
-<br>
+  <br>
 
   <!-- Inline Elements -->
 
-<h3>abbr [abbreviation] tag</h3>  
-<abbr title="world wide web">www</abbr><br>
+  <h3>abbr [abbreviation] tag</h3>
+  <abbr title="world wide web">www</abbr><br>
 
-<h3>bdo [bi-directional overwrite] tag</h3>
-<bdo dir="rtl">This text will be displayed from right to left</bdo><br>
-<bdo dir="ltr">This text will be displayed from left to right</bdo><br>
+  <h3>bdo [bi-directional overwrite] tag</h3>
+  <bdo dir="rtl">This text will be displayed from right to left</bdo><br>
+  <bdo dir="ltr">This text will be displayed from left to right</bdo><br>
 
-<h3>big tag</h3>
-<big>This text is big</big><br>
+  <h3>big tag</h3>
+  <big>This text is big</big><br>
 
-<h3>cite tag</h3>
-<p><cite>The Great Gatsby</cite> is a novel written by F. Scott Fitzgerald.</p><br>
+  <h3>cite tag</h3>
+  <p><cite>The Great Gatsby</cite> is a novel written by F. Scott Fitzgerald.</p><br>
 
-<h3>code tag</h3>
-<p>Use the <code>console.log()</code> function to print messages to the console.</p><br>
+  <h3>code tag</h3>
+  <p>Use the <code>console.log()</code> function to print messages to the console.</p><br>
 
-<h3>dfn [definition] tag</h3>
-<p><dfn>HTML</dfn> stands for Hyper Text Markup Language.</p><br>
+  <h3>dfn [definition] tag</h3>
+  <p><dfn>HTML</dfn> stands for Hyper Text Markup Language.</p><br>
 
-<h3>kbd [keyboard] tag</h3>
-<p>Press <kbd>Ctrl</kbd> + <kbd>C</kbd> to copy</p><br>
+  <h3>kbd [keyboard] tag</h3>
+  <p>Press <kbd>Ctrl</kbd> + <kbd>C</kbd> to copy</p><br>
 
-<h3>var [variable] tag</h3>
-<p>The area of a rectangle is <var>length</var> × <var>width</var>.</p><br>
+  <h3>var [variable] tag</h3>
+  <p>The area of a rectangle is <var>length</var> × <var>width</var>.</p><br>
 
-<h3>samp [sample output] tag</h3>
-<p>The command <samp>npm install</samp> is used to install Node.js packages.</p><br>
+  <h3>samp [sample output] tag</h3>
+  <p>The command <samp>npm install</samp> is used to install Node.js packages.</p><br>
 
-<h3>button</h3>
-<button>This is a button</button>
+  <h3>button</h3>
+  <button>This is a button</button>
 
-<h3>q (quotation) tag</h3>
-<p>She said, <q>Learning HTML5 is fun!</q></p>
+  <h3>q (quotation) tag</h3>
+  <p>She said, <q>Learning HTML5 is fun!</q></p>
 
-<h3>samp (sample) tag</h3>
-<p>To compile the program, use the command <samp>gcc program.c -o program</samp></p>
+  <h3>samp (sample) tag</h3>
+  <p>To compile the program, use the command <samp>gcc program.c -o program</samp></p>
 
-<h3>script tag</h3>
-<script>
-  console.log("Hello, World!");
-</script>
+  <h3>script tag</h3>
+  <script>
+    console.log("Hello, World!");
+  </script>
 
-<h3>select tag</h3>
-<label for="cars">Choose a car:</label>
-<select id="cars" name="cars">
-  <option value="volvo">Volvo</option>
-  <option value="saab">Saab</option>
-  <option value="mercedes">Mercedes</option>
-  <option value="audi">Audi</option> 
-</select>
+  <h3>select tag</h3>
+  <label for="cars">Choose a car:</label>
+  <select id="cars" name="cars">
+    <option value="volskwagen">Golf R Mk 7.5</option>
+    <option value="mitsubishi">Evo 9 MR</option>
+    <option value="nissan">GTR R35</option>
+    <option value="audi">RSQ8</option>
+  </select>
 
-<h3>span tag</h3>
-<p>This is a <span style="color:blue">blue</span> word in a sentence.</p>
+  <h3>span tag</h3>
+  <p>This is a <span style="color:blue">blue</span> word in a sentence.</p>
 
-<h3>time tag</h3>
-<p>The event starts at <time datetime="2024-07-01T19:30">7:30 PM on July 1, 2024</time>.</p>
+  <h3>time tag</h3>
+  <p>The event starts at <time datetime="2024-07-01T19:30">7:30 PM on July 1, 2024</time>.</p>
 
 
+  <!-- Block Elements -->
+  <h3>fieldset tag</h3>
+  <fieldset>
+    <legend>Personal Information</legend>
+    <label for="fname2">First Name:</label>
+    <input type="text" id="fname2" name="fname2"><br><br>
+    <label for="lname2">Last Name:</label>
+    <input type="text" id="lname2" name="lname2"><br><br>
+    <input type="submit" value="Submit">
+  </fieldset>
+
+
+  <h3>figcaption & figure tags</h3>
+  <figure>
+    <img src="images/mk7.5.png" alt="Golf R Mk 7.5" width="500" height="400">
+    <figcaption>Figure 1: A Volkswagen Golf R Mk 7.5</figcaption>
+  </figure>
+
+  <h3>footer</h3>
+  <footer>
+    <p>&copy; 2024 My Website. All rights reserved.</p>
+  </footer>
+
+  <h3>header & nav</h3>
+  <header>
+    <h1>Welcome to My Website</h1>
+    <nav>
+      <a href="#home">Home</a> |
+      <a href="#about">About</a> |
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+
+  <h3>hr (horizontal rule)</h3>
+  <hr>
+
+  <h3>hgroup</h3>
+  <hgroup>
+    <h1>Main Title</h1>
+    <h2>Subtitle</h2>
+  </hgroup>
+
+  <h3>main</h3>
+  <main>
+    <h2>Main Content Area</h2>
+    <p>This is where the primary content of the webpage goes.</p>
+  </main>
+
+  <h3>pre</h3>
+  <pre>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias, porro?</pre>
 
 
 
